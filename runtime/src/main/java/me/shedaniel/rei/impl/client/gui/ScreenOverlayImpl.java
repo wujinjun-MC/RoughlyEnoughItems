@@ -189,7 +189,7 @@ public abstract class ScreenOverlayImpl extends ScreenOverlay {
         this.widgets.add(InternalWidgets.wrapLateRenderable(hintsWidget));
         this.hintsWidget.init();
         
-        this.widgets.add(InternalWidgets.wrapLateRenderable(new ImportantWarningsWidget()));
+        // this.widgets.add(InternalWidgets.wrapLateRenderable(new ImportantWarningsWidget()));
     }
     
     private Rectangle getSearchFieldArea() {

@@ -1,3 +1,5 @@
+Removed "/recipe give @p *" warning.(in `runtime\src\main\java\me\shedaniel\rei\impl\client\gui\ScreenOverlayImpl.java`)
+
 # Roughly Enough Items
 https://minecraft.curseforge.com/projects/roughly-enough-items <br>
 Roughly Enough Items is a mod to view Items and Recipes for Minecraft 1.13 - 1.18, supporting mod loaders from Forge, Rift to Fabric.

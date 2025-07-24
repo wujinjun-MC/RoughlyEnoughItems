@@ -61,7 +61,7 @@ public class ImportantWarningsWidget extends WidgetWithBounds {
                     : "null";
             if (!newId.equals(prevId)) {
                 prevId = newId;
-                dirty = true;
+                dirty = false;
             }
             dirty = dirty && !ClientHelper.getInstance().canUseMovePackets();
         }
